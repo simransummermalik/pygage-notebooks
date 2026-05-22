@@ -38,7 +38,7 @@ normal colon → primary colorectal cancer → liver metastasis
 
 ## Dataset deep dive: What is GSE50760?
 
-**GSE50760** is a public human colorectal cancer RNA-seq dataset designed around disease progression and tumor heterogeneity. The study generated RNA-seq data from **54 samples collected from 18 colorectal cancer patients**, with each patient contributing tissue from three biologically meaningful states:
+**GSE50760** is a public human colorectal cancer RNA-seq dataset designed around disease progression and tumor heterogeneity. The study generated RNA-seq data from 54 samples collected from 18 colorectal cancer patients, with each patient contributing tissue from three biologically meaningful states:
 
 ```text
 normal colon
@@ -112,21 +112,21 @@ That matters because real public RNA-seq datasets usually do not arrive in a per
 4. Fold-style preparation created `NaN` and `inf` values because FPKM data contain zeros and near-zero values.
 5. Pathview Plus rendered the pathway from gene symbols, but the gene-level expression values mapped correctly only after conversion to Entrez IDs.
 
-These issues are exactly why this workflow is useful as documentation. It does not only show the successful path. It records the real points where a student, biologist, or first-time user could get stuck.
+These issues are exactly why this workflow is useful as documentation. It does not only show the successful path. It records the real points where a student, biologist, or first time user could get stuck.
 
 
 ---
 
-## Why this project matters
+## Why?
 
-RNA-seq experiments often produce long gene-level tables, but biological interpretation usually happens at the pathway level. A list of changed genes is useful, but researchers usually want to know:
+RNA-seq experiments often produce long gene level tables, but biological interpretation usually happens at the pathway level. A list of changed genes is useful, but researchers usually want to know:
 
 - Which biological programs are shifting?
 - Are changes related to proliferation, invasion, immune signaling, hypoxia, or apoptosis?
 - Do the pathway-level signals make sense with the tissue comparison?
 - Can the pathway-level result be connected back to gene-level changes visually?
 
-This project uses **pyGAGE** to summarize gene-level expression changes into pathway-level signals, then uses **Pathview Plus** to map gene-level changes back onto KEGG pathway diagrams.
+This project uses **pyGAGE** to summarize gene level expression changes into pathway level signals, then uses **Pathview Plus** to map gene level changes back onto KEGG pathway diagrams.
 
 The result is a workflow that connects:
 
@@ -806,7 +806,7 @@ display(results_normal_vs_primary_diff["stats"].to_pandas())
 
 ---
 
-## pyGAGE result summary
+## pyGAGE result summary!
 
 The difference-based pyGAGE run produced stable pathway-level results.
 
