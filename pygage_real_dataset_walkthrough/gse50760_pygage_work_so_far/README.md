@@ -1350,27 +1350,6 @@ Possible documentation pages:
 
 The strongest part of this project is that it records the actual user experience, including the failure points and fixes.
 
----
-
-## Why this is more than a basic notebook
-
-A basic notebook would only show final working code.
-
-This notebook is stronger because it documents the full reasoning path:
-
-```text
-why this dataset was selected
-why sample grouping matters
-why repeated merges failed
-why use_fold=False was needed
-why Pathview Plus needed Entrez IDs
-why pathway results need biological caution
-```
-
-That makes it useful not only as an analysis, but also as a real documentation/vignette contribution.
-
-
----
 
 ## Current status
 
@@ -1455,9 +1434,8 @@ Visualizing KEGG pathways with Pathview Plus
 
 ## Interpretation caution
 
-This workflow is a reproducible real-dataset example, not a final biological claim.
 
-The current gene sets are intentionally small and hand-curated. They are useful for teaching and debugging the pyGAGE-to-Pathview workflow, but stronger biological conclusions would require:
+The current gene sets are intentionally small and hand curated. They are useful for teaching and debugging the pyGAGE to Pathview workflow, but stronger biological conclusions would require:
 
 - broader pathway databases,
 - multiple testing across complete pathway collections,
