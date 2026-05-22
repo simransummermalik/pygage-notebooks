@@ -1,0 +1,2 @@
+comparison,pathway_id,pathway_name,input_id_type,output_file,reason_selected
+normal_colon_vs_primary_crc,hsa04110,KEGG Cell Cycle,ENTREZ,gse50760_pygage/results/pathview_outputs/hsa04110.normal_vs_primary_cell_cycle_entrez.png,Cell cycle/proliferation was one of the strongest positive pyGAGE signals in the normal vs primary comparison.

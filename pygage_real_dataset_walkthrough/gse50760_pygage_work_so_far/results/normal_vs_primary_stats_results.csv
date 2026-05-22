@@ -1,0 +1,7 @@
+gene_set,stat_mean,set_size,comparison
+cell_cycle_proliferation,15.77753326984127,7,normal_colon_vs_primary_crc
+wnt_beta_catenin_signaling,17.870097158730157,7,normal_colon_vs_primary_crc
+ecm_invasion_metastasis,21.04141407638889,8,normal_colon_vs_primary_crc
+apoptosis_balance,0.8168567314814817,6,normal_colon_vs_primary_crc
+angiogenesis_hypoxia,7.2931672222222215,5,normal_colon_vs_primary_crc
+immune_inflammation,2.7490743185185185,6,normal_colon_vs_primary_crc
