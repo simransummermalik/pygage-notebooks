@@ -1,0 +1,26 @@
+organism_code	kegg_gene_id	kegg_gene_number	entrez_id	symbol	description	has_entrez_id	source
+pmav			102915534	Oaz3	ornithine decarboxylase antizyme 3	true	NCBI Gene
+pmav			102910316	Snrpn	small nuclear ribonucleoprotein polypeptide N	true	NCBI Gene
+pmav			102906331	Epas1	endothelial PAS domain protein 1	true	NCBI Gene
+pmav			102908193	Hoxd13	homeobox D13	true	NCBI Gene
+pmav			105369067	Syna	syncytin a	true	NCBI Gene
+pmav			102916339	Timp3	TIMP metallopeptidase inhibitor 3	true	NCBI Gene
+pmav			102908271	Timp2	TIMP metallopeptidase inhibitor 2	true	NCBI Gene
+pmav			102905577	Rassf1	Ras association domain family member 1	true	NCBI Gene
+pmav			102903203	Atf4	activating transcription factor 4	true	NCBI Gene
+pmav			102925265	Rpl32	ribosomal protein L32	true	NCBI Gene
+pmav			102911048	Avpr1a	arginine vasopressin receptor 1A	true	NCBI Gene
+pmav			102918922	Peg10	paternally expressed 10	true	NCBI Gene
+pmav			102921621	Oaz1	ornithine decarboxylase antizyme 1	true	NCBI Gene
+pmav			102924567	Cep131	centrosomal protein 131	true	NCBI Gene
+pmav			102925156	Acr	acrosin	true	NCBI Gene
+pmav			102925052	Spa17	sperm autoantigenic protein 17	true	NCBI Gene
+pmav			102903541	Dnaaf1	dynein axonemal assembly factor 1	true	NCBI Gene
+pmav			102912686	Azin1	antizyme inhibitor 1	true	NCBI Gene
+pmav			102904832	Azin2	antizyme inhibitor 2	true	NCBI Gene
+pmav			105358866	Synb	syncytin b	true	NCBI Gene
+pmav			102928127	Oaz2	ornithine decarboxylase antizyme 2	true	NCBI Gene
+pmav			102923485	Gsg1	germ cell associated 1	true	NCBI Gene
+pmav			102917244	Ms4a14	membrane spanning 4-domains A14	true	NCBI Gene
+pmav			102907973	Cep295nl	CEP295 N-terminal like	true	NCBI Gene
+pmav			102910963	Smcp	sperm mitochondria associated cysteine rich protein	true	NCBI Gene

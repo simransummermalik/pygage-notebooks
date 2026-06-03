@@ -3,7 +3,6 @@
 Use this README as a quick guide to the project layout and current work.
 
 ## Most Recent Work
-
 [MetaCerberus Rhizobium pyGAGE + Pathview Plus export](metacerberus_rhizobium_pygage_pathview_export/README.md)
 
 ## Clickable Navigation
