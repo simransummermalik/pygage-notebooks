@@ -3,9 +3,26 @@
 Use this README as a quick guide to the project layout and current work.
 
 ## Most Recent Work
-[MetaCerberus Rhizobium pyGAGE + Pathview Plus export](metacerberus_rhizobium_pygage_pathview_export/README.md)
+
+[PyGAGE organism-specific egSymb mapping test](changes-test/README.md)
+
+This is the current test folder for organism-specific Entrez ID and gene-symbol mapping. It includes mouse (`mmu`) outputs, a `pmav` NCBI fallback test, a notebook, and copies of the changed PyGAGE files for review.
 
 ## Clickable Navigation
+
+### PyGAGE Organism Mapping Test
+
+- [Test README](changes-test/README.md)
+- [Test notebook](changes-test/test_organism_specific_egsymb_mapping.ipynb)
+- [Mouse rich mapping output](changes-test/outputs/mmu_gene_mapping.tsv)
+- [Mouse egSymb-compatible output](changes-test/outputs/mmu_egSymb.tsv)
+- [pmav rich mapping test output](changes-test/outputs/pmav_gene_mapping.test25.tsv)
+- [pmav egSymb-compatible test output](changes-test/outputs/pmav_egSymb.test25.tsv)
+- [Copied changed-file notes](changes-test/files%20changed/README.md)
+- [Copied gene ID utility file](changes-test/files%20changed/lib/gene_id_utils.py)
+- [Copied command-line script](changes-test/files%20changed/bin/pygage-build_egsymb_mapping.py)
+- [Copied pyproject file](changes-test/files%20changed/pyproject.toml)
+- [Copied PyGAGE README](changes-test/files%20changed/pygage_README.md)
 
 ### MetaCerberus Rhizobium Workflow
 
@@ -38,6 +55,23 @@ Use this README as a quick guide to the project layout and current work.
 ```text
 pygage-walkthrough/
 |-- README.md
+|-- .gitignore
+|-- changes-test/
+|   |-- README.md
+|   |-- test_organism_specific_egsymb_mapping.ipynb
+|   |-- outputs/
+|   |   |-- mmu_gene_mapping.tsv
+|   |   |-- mmu_egSymb.tsv
+|   |   |-- pmav_gene_mapping.test25.tsv
+|   |   `-- pmav_egSymb.test25.tsv
+|   `-- files changed/
+|       |-- README.md
+|       |-- pyproject.toml
+|       |-- pygage_README.md
+|       |-- bin/
+|       |   `-- pygage-build_egsymb_mapping.py
+|       `-- lib/
+|           `-- gene_id_utils.py
 |-- metacerberus_rhizobium_pygage_pathview_export/
 |   |-- README.md
 |   |-- MetaCerberus_Rhizobium_FOAM_Output_to_pyGAGE_Pathview_Plus.ipynb
@@ -76,3 +110,5 @@ pygage-walkthrough/
 `-- toy-dataset-initial-attempt/
     `-- tryingoutpygage.ipynb
 ```
+
+The local `pygage-dev/` clone is intentionally ignored by Git and is not part of this repository navigation.
