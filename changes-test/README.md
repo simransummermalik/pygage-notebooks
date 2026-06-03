@@ -406,4 +406,3 @@ pygage-dev/
 
 That means pushing this walkthrough repo does **not** push the local PyGAGE clone.
 
-Do not run `git push` from inside `pygage-dev/` unless the goal is specifically to publish the experimental PyGAGE code to a branch or fork.
