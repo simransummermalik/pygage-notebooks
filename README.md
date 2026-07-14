@@ -1,6 +1,7 @@
 # File Structure for Navigation
 
 Use this README as a quick guide to the project layout and current work.
+The Pathview plus walkthrough is located here (https://github.com/simransummermalik/pathviewmarkdowns)
 
 ## Most Recent Work
 
